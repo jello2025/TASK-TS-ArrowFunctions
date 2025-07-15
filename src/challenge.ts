@@ -17,7 +17,7 @@ import { square } from "./arrowFunctions";
 // }
 
 const squares = (numbers: number[]) =>
-  numbers.forEach((number) => {
+  numbers.map((number) => {
     return number ** 2;
   });
 
